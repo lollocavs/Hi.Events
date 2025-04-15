@@ -12,8 +12,7 @@ const config: LinguiConfig = {
         "de", // German
         "pt", // Portuguese (Portugal)
         "vi", // Vietnamese
-
-        // "it", // Italian
+        "it", // Italian
         // "pl", // Polish
         // "ja", // Japanese
         // "ko", // Korean

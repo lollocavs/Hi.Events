@@ -18,10 +18,12 @@ import {messages as zhHk} from "./locales/zh-hk.po";
 import {messages as ptBr} from "./locales/pt-br.po";
 // @ts-ignore
 import {messages as vi} from "./locales/vi.po";
+// @ts-ignore
+import {messages as it} from "./locales/it.po";
 import {i18n} from "@lingui/core";
 import {t} from "@lingui/macro";
 
-export type SupportedLocales = "en" | "de" | "fr" | "nl" | "pt" | "es" | "zh-cn" | "pt-br" | "vi" |"zh-hk";
+export type SupportedLocales = "en" | "de" | "fr" | "nl" | "pt" | "es" | "zh-cn" | "pt-br" | "vi" |"zh-hk" | "it";
 
 export const localeMessages: Record<string, any> = {
     en: en,
@@ -34,6 +36,7 @@ export const localeMessages: Record<string, any> = {
     "zh-hk": zhHk,
     "pt-br": ptBr,
     vi: vi,
+    it: it,
 };
 
 export const localeToFlagEmojiMap: Record<SupportedLocales, string> = {
@@ -47,6 +50,7 @@ export const localeToFlagEmojiMap: Record<SupportedLocales, string> = {
     "zh-hk": '🇭🇰',
     "pt-br": '🇧🇷',
     vi: '🇻🇳',
+    it: 'IT',
 };
 
 export const localeToNameMap: Record<SupportedLocales, string> = {
@@ -60,6 +64,8 @@ export const localeToNameMap: Record<SupportedLocales, string> = {
     "zh-hk": `Cantonese`,
     "pt-br": `Portuguese (Brazil)`,
     vi: `Vietnamese`,
+    it: `Italian`,
+
 };
 
 export const getLocaleName = (locale: SupportedLocales) => {
