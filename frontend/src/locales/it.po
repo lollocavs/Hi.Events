@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: Hi.Events\n"
-"Language: es\n"
+"Language: it\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: src/components/common/NoResultsSplash/index.tsx:14
 msgid "'There\\'s nothing to show yet'"
-msgstr "'No hay nada que mostrar todavía'"
+msgstr "'Non c'è ancora niente da vedere'"
 
 #: src/components/modals/SendMessageModal/index.tsx:159
 #~ msgid ""
@@ -34,25 +34,25 @@ msgstr "'No hay nada que mostrar todavía'"
 #~ "\"\"contraseña.\"\""
 
 #: src/components/common/ReportTable/index.tsx:303
-#: src/locales.ts:66
+#: src/locales.ts:72
 msgid "{0}"
-msgstr ""
+msgstr "{0}"
 
 #: src/components/layouts/CheckIn/index.tsx:81
 msgid "{0} <0>checked in</0> successfully"
-msgstr "{0} <0>registrado</0> con éxito"
+msgstr "{0} <0>registrato</0> con successo"
 
 #: src/components/layouts/CheckIn/index.tsx:105
 msgid "{0} <0>checked out</0> successfully"
-msgstr "{0} <0>retirado</0> con éxito"
+msgstr "{0} <0>pagamento effettuato</0> con successo"
 
 #: src/components/routes/event/Webhooks/index.tsx:24
 msgid "{0} Active Webhooks"
-msgstr "{0} webhooks activos"
+msgstr "{0} webhooks attivi"
 
 #: src/components/routes/product-widget/SelectProducts/index.tsx:355
 msgid "{0} available"
-msgstr "{0} disponible"
+msgstr "{0} disponibile"
 
 #: src/components/common/AttendeeCheckInTable/index.tsx:155
 #~ msgid "{0} checked in"
@@ -60,39 +60,39 @@ msgstr "{0} disponible"
 
 #: src/components/modals/CreateTaxOrFeeModal/index.tsx:32
 msgid "{0} created successfully"
-msgstr "{0} creado correctamente"
+msgstr "{0} creato con successo"
 
 #: src/components/modals/EditTaxOrFeeModal/index.tsx:42
 msgid "{0} updated successfully"
-msgstr "{0} actualizado correctamente"
+msgstr "{0} aggiornato con successo"
 
 #: src/components/routes/organizer/OrganizerDashboard/index.tsx:57
 msgid "{0}'s Events"
-msgstr "Eventos de {0}"
+msgstr "Eventi di {0}"
 
 #: src/components/layouts/CheckIn/index.tsx:438
 msgid "{0}/{1} checked in"
-msgstr "{0}/{1} registrado"
+msgstr "{0}/{1} registrato"
 
 #: src/components/common/Countdown/index.tsx:68
 msgid "{days} days, {hours} hours, {minutes} minutes, and {seconds} seconds"
-msgstr "{days} días, {hours} horas, {minutes} minutos y {seconds} segundos"
+msgstr "{days} giorni, {hours} ore, {minutes} minuti e {seconds} secondi"
 
 #: src/components/common/WebhookTable/index.tsx:79
 msgid "{eventCount} events"
-msgstr "{eventCount} eventos"
+msgstr "{eventCount} eventi"
 
 #: src/components/common/Countdown/index.tsx:70
 msgid "{hours} hours, {minutes} minutes, and {seconds} seconds"
-msgstr "{hours} horas, {minutes} minutos y {seconds} segundos"
+msgstr "{hours} ore, {minutes} minuti e {seconds} secondi"
 
 #: src/components/common/Countdown/index.tsx:72
 msgid "{minutes} minutes and {seconds} seconds"
-msgstr "{minutos} minutos y {segundos} segundos"
+msgstr "{minutos} minuti e {segundos} secondi"
 
 #: src/components/routes/welcome/index.tsx:59
 msgid "{organizerName}'s first event"
-msgstr "El primer evento de {organizerName}"
+msgstr "Il primo evento di {organizerName}"
 
 #: src/components/common/ReportTable/index.tsx:256
 #~ msgid "{title}"
